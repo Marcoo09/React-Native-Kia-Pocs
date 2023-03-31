@@ -9,7 +9,8 @@ import {
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {GraphsScreen} from './src/components/Graphs';
+import {Draw} from './src/components/Draw';
+// import {GraphsScreen} from './src/components/Graphs';
 // import {HelloWorld} from './src/components/HelloWorld';
 // import {Wallpaper} from './src/components/Wallpaper';
 // import {Neumorphism} from './src/components/Neumorphism/Neumorphism';
@@ -31,7 +32,8 @@ function App(): JSX.Element {
         {/* <HelloWorld /> */}
         {/* <Wallpaper /> */}
         {/* <Neumorphism /> */}
-        <GraphsScreen />
+        {/* <GraphsScreen /> */}
+        <Draw />
       </ScrollView>
     </SafeAreaView>
   );
